@@ -29,3 +29,8 @@ No Node.js, Next.js, React, npm, external APIs, CDN or GitHub Actions required. 
 - `worlds.json` — structured data mirror for future extensions
 
 © 2026 Blair Page. By Blair Page.
+
+
+## Expanded planet links (October 2026)
+
+The eight planet panels now link to 54 destinations found in the main Blair Page portfolio HTML. The six Retroverse Arcade links open the playable GitHub Pages editions, rather than source repositories. Other destinations include live project pages, Credly, Coursera certificates, ATS research, and LinkedIn. The main profile HTML is the source for these URLs; external availability was not independently checked.
