@@ -1,0 +1,248 @@
+[
+  {
+    "id": "cloud",
+    "title": "Cloud Citadel",
+    "subtitle": "AWS \u00b7 OpenStack \u00b7 Infrastructure",
+    "details": "Cloud infrastructure, Linux engineering, networking, hosting operations, and enterprise support. Professional experience spans managed hosting, cloud services, troubleshooting and customer-facing technical work.",
+    "skills": [
+      "AWS",
+      "OpenStack",
+      "VPC",
+      "EC2",
+      "CloudFront",
+      "Networking",
+      "Infrastructure"
+    ],
+    "color": "#80b9ff",
+    "position": [
+      -6,
+      1,
+      -2
+    ],
+    "radius": 0.88,
+    "links": [
+      {
+        "label": "Full professional portfolio",
+        "url": "https://blairyfairy.github.io/BlairPage/"
+      },
+      {
+        "label": "Digital portfolio card",
+        "url": "https://blairyfairy.github.io/portfolio-card/"
+      }
+    ]
+  },
+  {
+    "id": "linux",
+    "title": "Linux Command",
+    "subtitle": "L3 \u00b7 Escalations \u00b7 Reliability",
+    "details": "L3 Linux and managed applications support, production incidents, root-cause investigation, systems administration, automation and service restoration. Experience includes Liquid Web / Nexcess and UpCloud.",
+    "skills": [
+      "RHEL",
+      "Linux",
+      "cPanel",
+      "Plesk",
+      "HAProxy",
+      "Ansible",
+      "Incident response"
+    ],
+    "color": "#a49cff",
+    "position": [
+      -2.5,
+      -1,
+      -5
+    ],
+    "radius": 0.76,
+    "links": [
+      {
+        "label": "Professional experience",
+        "url": "https://blairyfairy.github.io/BlairPage/"
+      },
+      {
+        "label": "Career title research",
+        "url": "https://blairyfairy.github.io/BlairPage/Blairs_Job_Titles_ATS.html"
+      }
+    ]
+  },
+  {
+    "id": "database",
+    "title": "Data Nebula",
+    "subtitle": "MySQL \u00b7 Percona \u00b7 Redis \u00b7 Galera",
+    "details": "Relational and NoSQL database operations, replication, caching, performance troubleshooting and high-availability architectures across MySQL, Percona, Galera, Redis and MongoDB.",
+    "skills": [
+      "MySQL",
+      "Percona",
+      "Galera",
+      "Redis",
+      "MongoDB",
+      "Replication",
+      "High availability"
+    ],
+    "color": "#78e7df",
+    "position": [
+      3.3,
+      0.7,
+      -4
+    ],
+    "radius": 0.84,
+    "links": [
+      {
+        "label": "Database skills and experience",
+        "url": "https://blairyfairy.github.io/BlairPage/"
+      }
+    ]
+  },
+  {
+    "id": "commerce",
+    "title": "Commerce Constellation",
+    "subtitle": "WordPress \u00b7 WooCommerce \u00b7 Magento",
+    "details": "E-commerce and CMS platforms, managed web applications, performance optimization, platform support, digital retail systems and luxury brand experiences.",
+    "skills": [
+      "WordPress",
+      "WooCommerce",
+      "Magento",
+      "PHP",
+      "Nginx",
+      "Digital commerce"
+    ],
+    "color": "#ffacd1",
+    "position": [
+      6.8,
+      -0.7,
+      -0.5
+    ],
+    "radius": 0.92,
+    "links": [
+      {
+        "label": "Commerce and application work",
+        "url": "https://blairyfairy.github.io/BlairPage/"
+      },
+      {
+        "label": "Luxury digital portfolio",
+        "url": "https://blairyfairy.github.io/BlairPage/"
+      }
+    ]
+  },
+  {
+    "id": "credentials",
+    "title": "Academy of Stars",
+    "subtitle": "University \u00b7 AWS \u00b7 Credly \u00b7 Learning",
+    "details": "Business administration education, cloud and Linux learning paths, AWS knowledge badges and professional development. Refer to the live source portfolio for the latest degree and certification status.",
+    "skills": [
+      "Business administration",
+      "AWS badges",
+      "Cloud training",
+      "Linux training",
+      "Professional development"
+    ],
+    "color": "#e5c6ff",
+    "position": [
+      5,
+      1.5,
+      5
+    ],
+    "radius": 0.8,
+    "links": [
+      {
+        "label": "Education and certification sections",
+        "url": "https://blairyfairy.github.io/BlairPage/"
+      },
+      {
+        "label": "Credly badges",
+        "url": "https://www.credly.com/users/blair-page"
+      }
+    ]
+  },
+  {
+    "id": "career",
+    "title": "Career Observatory",
+    "subtitle": "ATS Research \u00b7 Remote Engineering Roles",
+    "details": "Research and modeled alignment across hundreds of technical and digital job titles, with skills coverage, tailored role analysis and professional portfolio materials. Modeled ATS figures are not employer hiring guarantees.",
+    "skills": [
+      "Enterprise support",
+      "Linux engineering",
+      "Database operations",
+      "Cloud support",
+      "Career research"
+    ],
+    "color": "#ffcf91",
+    "position": [
+      0,
+      1.3,
+      6.8
+    ],
+    "radius": 0.88,
+    "links": [
+      {
+        "label": "Job title research",
+        "url": "https://blairyfairy.github.io/BlairPage/Blairs_Job_Titles_ATS.html"
+      },
+      {
+        "label": "ATS gap analysis",
+        "url": "https://blairyfairy.github.io/BlairPage/95-100_ATS_Gap_Differential.html"
+      }
+    ]
+  },
+  {
+    "id": "arcade",
+    "title": "Retroverse Arcade",
+    "subtitle": "Playable Games \u00b7 Creative Coding",
+    "details": "Interactive GitHub Pages games and experiments inspired by classic RPGs, arcade side-scrollers, sci-fi shooters, and text-based espionage. These projects connect technical storytelling with game design.",
+    "skills": [
+      "JavaScript",
+      "HTML5",
+      "Game systems",
+      "UI design",
+      "Interactive storytelling"
+    ],
+    "color": "#c98aff",
+    "position": [
+      -5.8,
+      -0.8,
+      4
+    ],
+    "radius": 0.87,
+    "links": [
+      {
+        "label": "Games section of portfolio",
+        "url": "https://blairyfairy.github.io/BlairPage/#gaming-projects"
+      },
+      {
+        "label": "Shadow Protocol Dissent repository",
+        "url": "https://github.com/Blairyfairy/Blairs-Shadow-Protocol-Dissent"
+      },
+      {
+        "label": "All GitHub repositories",
+        "url": "https://github.com/Blairyfairy"
+      }
+    ]
+  },
+  {
+    "id": "creative",
+    "title": "Creative Horizon",
+    "subtitle": "Luxury \u00b7 Product \u00b7 AI Strategy",
+    "details": "Cross-disciplinary interests and projects spanning AI product strategy, luxury fashion and hospitality learning, digital design, brand systems and technical product experiences.",
+    "skills": [
+      "AI product strategy",
+      "Digital design",
+      "Luxury brand management",
+      "Product experience"
+    ],
+    "color": "#ffb4a8",
+    "position": [
+      -8,
+      1.1,
+      1.5
+    ],
+    "radius": 0.7,
+    "links": [
+      {
+        "label": "Blair Page portfolio",
+        "url": "https://blairyfairy.github.io/BlairPage/"
+      },
+      {
+        "label": "Branding kit repository",
+        "url": "https://github.com/Blairyfairy/Highest-ATS-Score-Job-Titles-Branding-Kit-"
+      }
+    ]
+  }
+]
