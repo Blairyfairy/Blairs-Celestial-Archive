@@ -21,3 +21,26 @@
 .portrait img{box-shadow:0 0 0 2px #4b324f,0 0 12px #805d7b30}
 @media(max-width:740px){.hero-meta{bottom:196px;max-width:260px;font-size:8px;gap:4px 9px}.portrait{bottom:115px;gap:12px}.portrait b{font-size:15px}.portrait small{font-size:7px;letter-spacing:.05em}}
 @media(max-height:650px){.hero-meta{bottom:148px}.portrait{bottom:66px}}
+
+/* Blair Page brand icon: matching lavender gem and accessible hover glow. */
+.topbar .identity .gem{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;line-height:1;}
+.topbar .identity .gem img{display:block;object-fit:contain;filter:drop-shadow(0 0 5px rgba(158,130,156,.35));transition:filter .28s ease,transform .28s ease;}
+.topbar .identity b{transition:text-shadow .28s ease,color .28s ease;}
+.topbar .identity:hover .gem img,.topbar .identity:focus-visible .gem img{filter:drop-shadow(0 0 7px rgba(240,239,244,.8)) drop-shadow(0 0 17px rgba(158,130,156,.85));transform:scale(1.09);}
+.topbar .identity:hover b,.topbar .identity:focus-visible b{color:#f0eff4;text-shadow:0 0 8px rgba(240,239,244,.75),0 0 20px rgba(158,130,156,.8);}
+@media(prefers-reduced-motion:reduce){.topbar .identity .gem img,.topbar .identity b{transition:none;}}
+
+/* Portfolio index.html parity: gemstone-only hover, no Blair Page text glow. */
+.topbar .identity:hover b,.topbar .identity:focus-visible b{color:inherit;text-shadow:none;}
+.topbar .identity .gem img{transform-origin:50% 50%;transition:transform 260ms cubic-bezier(.2,.75,.25,1),filter 260ms ease;backface-visibility:hidden;}
+.topbar .identity:hover .gem img,.topbar .identity:focus-visible .gem img{filter:brightness(1.08) saturate(1.12) drop-shadow(0 0 2px rgba(255,255,255,.98)) drop-shadow(0 0 5px rgba(247,225,255,.95)) drop-shadow(0 0 10px rgba(205,160,218,.9)) drop-shadow(0 0 16px rgba(155,113,190,.62));animation:archiveCardExactGemTilt 920ms cubic-bezier(.22,.7,.25,1) both;}
+@keyframes archiveCardExactGemTilt{
+0%{transform:perspective(520px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateY(0) scale(1)}
+18%{transform:perspective(520px) rotateX(5deg) rotateY(-8deg) rotateZ(-1.1deg) translateY(-1px) scale(1.035)}
+36%{transform:perspective(520px) rotateX(-3deg) rotateY(6deg) rotateZ(1deg) translateY(0) scale(1.04)}
+53%{transform:perspective(520px) rotateX(2deg) rotateY(-4deg) rotateZ(-.65deg) translateY(-.5px) scale(1.04)}
+70%{transform:perspective(520px) rotateX(-1deg) rotateY(2.5deg) rotateZ(.35deg) translateY(0) scale(1.035)}
+86%{transform:perspective(520px) rotateX(.5deg) rotateY(-1deg) rotateZ(-.15deg) translateY(0) scale(1.03)}
+100%{transform:perspective(520px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateY(0) scale(1.03)}
+}
+@media(prefers-reduced-motion:reduce){.topbar .identity:hover .gem img,.topbar .identity:focus-visible .gem img{animation:none;transform:scale(1.03)}}
