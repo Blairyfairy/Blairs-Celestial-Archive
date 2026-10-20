@@ -47,3 +47,37 @@
 
 /* Blair Page lettering: same white-to-lilac fade as portfolio index.html. */
 .topbar .identity b, .portrait b {background:linear-gradient(180deg,#ffffff 0%,#f0eff4 45%,#c9b3c7 100%) !important;-webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;color:transparent !important;filter:drop-shadow(0 2px 10px rgba(0,0,0,0.35)) !important;}
+
+/* Layout-only overlap prevention: original typography and button sizes remain unchanged. */
+@media (max-height: 850px), (max-width: 740px) {
+  main { position: relative; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 26px; padding: 95px 0 105px; min-height: 100vh; box-sizing: border-box; }
+  .hero { position: relative; top: auto; left: auto; margin-left: clamp(25px,5vw,84px); flex: 0 0 auto; }
+  .portrait { position: relative; left: auto; bottom: auto; margin-left: clamp(25px,5vw,84px); flex: 0 0 auto; }
+  .hero-meta { position: relative; left: auto; bottom: auto; margin-left: clamp(25px,5vw,84px); }
+  .bottom { z-index: 5; }
+}
+@media (max-width: 740px) {
+  main { padding-top: 105px; gap: 24px; }
+  .hero, .portrait, .hero-meta { margin-left: 22px; }
+  .hero { width: min(370px,calc(100vw - 44px)); }
+  .portrait { max-width: calc(100vw - 44px); }
+}
+@media (min-width: 741px) and (max-height: 850px) {
+  main { padding-top: 85px; gap: 25px; }
+}
+
+/* Keep the archive eyebrow fully below the navigation header at every viewport. */
+@media (max-height: 850px), (max-width: 740px) {
+  body { overflow-x: hidden; overflow-y: auto; }
+  main { padding-top: 132px; padding-bottom: 110px; min-height: 100vh; height: auto; }
+  .hero { margin-top: 0; }
+  .overline { position: relative; z-index: 2; }
+}
+@media (max-width: 740px) {
+  main { padding-top: 106px; }
+}
+@media (max-width: 390px) {
+  main { padding-top: 112px; }
+  .topbar { gap: 8px; }
+  .topbar nav { gap: 4px; }
+}
