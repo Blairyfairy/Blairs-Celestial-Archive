@@ -81,3 +81,10 @@
   .topbar { gap: 8px; }
   .topbar nav { gap: 4px; }
 }
+
+/* Footer-safe portrait: preserve original typography and normal document flow. */
+@media (max-height: 850px), (max-width: 740px) {
+  main { min-height: calc(100vh - 70px); height: auto; padding-bottom: 42px; }
+  .portrait { position: relative; bottom: auto; flex-shrink: 0; }
+  .bottom { position: relative; bottom: auto; left: auto; right: auto; z-index: 5; }
+}
