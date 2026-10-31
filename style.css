@@ -92,6 +92,7 @@
 /* Restore pointer access to the celestial canvas beneath the layout wrapper. */
 main { pointer-events: none; }
 main .buttons, main .buttons * { pointer-events: auto; }
+main .navigator, main .navigator * { pointer-events: auto; }
 #cosmos { touch-action: none; cursor: grab; }
 #cosmos:active { cursor: grabbing; }
 /* Reuse the existing brand logo for decorative diamond/star sigils. */
